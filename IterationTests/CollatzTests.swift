@@ -11,9 +11,10 @@ import XCTest
 
 
 func testCollatz() {
-    let test = Collatz(n: 3)
+    let test = Collatz(n: 3).collatzConvert()
     let expected = [10, 5, 16, 8, 4, 2, 1]
-    let result = Array(test)
     
-
+    XCTAssertEqual(test, expected)
+    
+}
 

@@ -5,13 +5,13 @@
 
 
 
-struct Battleship {
+struct Battleship: Sequence {
     
     
     var letterArray: [Character]
     var numArray: [Int]
     
-    init(letterArray: [Character], numArray: [Int])  {
+    init(_ letterArray: [Character], _ numArray: [Int])  {
         self.letterArray = letterArray
         self.numArray = numArray
         
@@ -21,8 +21,11 @@ struct Battleship {
             }
             
         }
+        
     }
-    
+    func makeIterator() -> Array<(Character, Int)>.Iterator {
+        return Array(zip(letterArray, numArray)).makeIterator()
+    }
     
 }
 
