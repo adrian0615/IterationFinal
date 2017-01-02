@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		078E20641E01CF5C00EC91E4 /* Iteration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 078E205A1E01CF5C00EC91E4 /* Iteration.framework */; };
 		078E20691E01CF5C00EC91E4 /* FirstNSquaredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E20681E01CF5C00EC91E4 /* FirstNSquaredTests.swift */; };
-		078E20751E01CF7A00EC91E4 /* createTake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E20741E01CF7A00EC91E4 /* createTake.swift */; };
 		078E20771E01D46400EC91E4 /* FirstNSquared.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E20761E01D46400EC91E4 /* FirstNSquared.swift */; };
 		078E20791E01DF6500EC91E4 /* ForwardBackward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E20781E01DF6500EC91E4 /* ForwardBackward.swift */; };
 		078E207B1E01E03700EC91E4 /* Battleship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078E207A1E01E03700EC91E4 /* Battleship.swift */; };
@@ -36,7 +35,6 @@
 		078E20631E01CF5C00EC91E4 /* IterationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IterationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		078E20681E01CF5C00EC91E4 /* FirstNSquaredTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNSquaredTests.swift; sourceTree = "<group>"; };
 		078E206A1E01CF5C00EC91E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		078E20741E01CF7A00EC91E4 /* createTake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = createTake.swift; path = ../createTake.swift; sourceTree = "<group>"; };
 		078E20761E01D46400EC91E4 /* FirstNSquared.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstNSquared.swift; sourceTree = "<group>"; };
 		078E20781E01DF6500EC91E4 /* ForwardBackward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForwardBackward.swift; sourceTree = "<group>"; };
 		078E207A1E01E03700EC91E4 /* Battleship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Battleship.swift; sourceTree = "<group>"; };
@@ -90,7 +88,6 @@
 				078E20781E01DF6500EC91E4 /* ForwardBackward.swift */,
 				078E207A1E01E03700EC91E4 /* Battleship.swift */,
 				078E207C1E01E09000EC91E4 /* Collatz.swift */,
-				078E20741E01CF7A00EC91E4 /* createTake.swift */,
 				078E205E1E01CF5C00EC91E4 /* Info.plist */,
 			);
 			path = Iteration;
@@ -220,7 +217,6 @@
 			files = (
 				078E20791E01DF6500EC91E4 /* ForwardBackward.swift in Sources */,
 				078E207D1E01E09000EC91E4 /* Collatz.swift in Sources */,
-				078E20751E01CF7A00EC91E4 /* createTake.swift in Sources */,
 				078E20771E01D46400EC91E4 /* FirstNSquared.swift in Sources */,
 				078E207B1E01E03700EC91E4 /* Battleship.swift in Sources */,
 			);
